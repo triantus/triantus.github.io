@@ -26,5 +26,11 @@ div.logo
    font-size:44px; /*size of text is 44 pixels*/
    line-height:1; /*spacing between lines*/
    
-   
+}
+
+div.logoPar
+{
+   position: relative; /*its position relative to the original*/
+    left: 60px; /*and moved 60 pixels from the left from its original position(so moved to the right)*/
+	font-size:33px; /*text size is 33px*/
 }
