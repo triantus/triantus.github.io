@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body
+{
+	margin: 0; /*setting body's margin to 0*/
+  padding: 0; /*setting body's padding to 0*/
+  background-image: url("../images/greyback.png"); /*inserting picture optimized in photoshop and setting it as backround for the body*/
+ 
+}
+
+div.logo
+{
+	/*styling image*/
+	padding-bottom:20px; /*giving it a little space to the bottom*/
+	background-image: url("../images/viperLogo2smaller.png"); /*giving it picture as background*/
+   background-repeat:no-repeat; /*make sure that the background will appear only one time*/
+   background-position:480px,0px; /*modifying background's position*/
+   /*styling text*/
+   font-family: 'Playfair Display'; /*using Playfair Display font from Google API fonts as requested*/
+   text-align: center; /*aligning text on center of the page*/
+   text-shadow:2px 2px 2px #B71C1C; /*letters have red shadow now*/
+   font-weight:bold; /*text is bold now*/
+   color:#000000; /*text color is black now*/
+   letter-spacing:1pt; /*there is 1 point spacing between letters*/
+   word-spacing:2pt; /*there are 2 points of spacing between words*/
+   font-size:44px; /*size of text is 44 pixels*/
+   line-height:1; /*spacing between lines*/
+   
+   
+}
