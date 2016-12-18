@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway');
 
 body
 {
@@ -33,4 +33,21 @@ div.logoPar
    position: relative; /*its position relative to the original*/
     left: 60px; /*and moved 60 pixels from the left from its original position(so moved to the right)*/
 	font-size:33px; /*text size is 33px*/
+}
+
+.welcomeText
+{
+	/*styling text*/
+	text-align:center; /*aligning welcoming paragraph to center*/
+	font-family:'Raleway'; /*using Raleway google font*/
+	font-weight:bold; /*letters are bold*/
+	font-size:33px; /*font size 33 pixels*/
+	color:white; /*color is white*/
+	
+}
+.welcomeImg
+{
+	/*styling image*/
+	display: block; /*image doesn't fall inline with other elements. It is now a block element.*/
+	margin: auto;  /*this will center the element in its container*/
 }
