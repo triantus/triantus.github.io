@@ -7,7 +7,7 @@ body
   background-image: url("../images/greyback.png"); /*inserting picture optimized in photoshop and setting it as backround for the body*/
  
 }
-
+/*styling universal logo*/
 div.logo
 {
 	/*styling image*/
@@ -28,6 +28,8 @@ div.logo
    
 }
 
+
+/*styling content of index*/
 div.logoPar
 {
    position: relative; /*its position relative to the original*/
@@ -50,4 +52,52 @@ div.logoPar
 	/*styling image*/
 	display: block; /*image doesn't fall inline with other elements. It is now a block element.*/
 	margin: auto;  /*this will center the element in its container*/
+}
+
+
+
+
+/*styling about page*/
+
+
+div.about
+{
+	/*the content of bio page is a class named "about". this is the styling for this class. it contains a header, a paragraph and an image*/
+	color:white; /*color white*/
+	padding-bottom:198px; /*the padding of this element will be 198px wide on the bottom*/
+	padding-top:10px; /*the padding of this element will be 10px wide on the top*/
+	text-align:center; /*it is alligned on the center*/
+}
+h1.aboutHeader
+{
+	/*styling sepatatelly the header of division with class name "about"*/
+	font-family:'Raleway'; /*raleway font is used here too*/
+	font-weight:bold; /*letters are bold*/
+	text-shadow:4px 3px 16px rgba(0, 0, 0, 1); /*applying shadow of color black*/
+	border-style: solid; /*applying border style solid.*/
+	
+}
+p.aboutPar
+{
+	/*styling sepatatelly the paragraph of division with class name "about"*/
+	font-family:'Raleway'; /*raleway font is used here too*/
+	font-size:20px; /*letter size is 20 pixels*/
+	font-weight:bold; /*letters are bold*/
+	letter-spacing:1pt; /*space between letters is 1 point*/
+}
+
+
+
+/*styling footers*/
+footer
+{
+	color:white; /*color of text and hr is white*/
+	text-align:center; /*text is aligned on center*/
+	font-size:20px; /*size of letters is 20 pixels*/
+} 
+footer #copyrights
+{
+	/*styling text in the footer separatelly*/
+	padding-bottom:0; /*padding is set to 0 because i want no space between text and horizontal rule and between text and bottom*/
+	margin:0; /*margin same as padding*/
 }
