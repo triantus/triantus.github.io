@@ -1,3 +1,5 @@
+Triantafyllidis Antonios (17419238)
+
 First the index page is being created before everything. 
 On that stage, some brainstorming took place to plan the design of the website.
 The intention is to make a functional website, comfortable for the eye and as simple as possible. 
@@ -9,5 +11,6 @@ In index content is added as well. A welcoming text and an image of the characte
 Splitting the image and text of index, in order to style them separatelly.
 
 Next, styling the bio page.
-Cv page is created as well. Content is added there as well. The content of these pages was written on site, as the character that is described is a fictionary character created by me.
+Cv page is created as well. Content is added there as well. The content of these pages was written instantly, as the character that is described is a fictionary character created by me.
 Footers with a basic copyright text is added on every page.Also styled.
+Now working on the navigation bar. Some research needs to take place first before implementing. Also expecting to finish the styling for CV page by tomorrow.
