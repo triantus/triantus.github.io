@@ -79,7 +79,7 @@ div.logoPar
 {
 	/*styling text*/
 	text-align:center; /*aligning welcoming paragraph to center*/
-	font-family:'Playfair Display'; /*using Raleway google font*/
+	font-family:'Raleway'; /*using Raleway google font*/
 	 /*letters are bold*/
 	font-size:33px; /*font size 33 pixels*/
 	color:white; /*color is white*/
@@ -124,7 +124,60 @@ p.aboutPar
 	letter-spacing:1pt; /*space between letters is 1 point*/
 }
 
-
+#cvBody
+{
+	color:white; 
+}
+.cv_title
+{
+	font-family:'Raleway';
+	font-size:50px;
+	text-align:center;
+	border-style:solid;
+	
+}
+.first_set
+{
+	font-family:'Raleway';
+	display:block;
+	padding-left:300px;
+	font-size:20px;
+}
+.first_set .first_column
+{
+	display: block;
+    float: left;
+	overflow:auto;
+	margin-right:40px;
+	
+}
+.first_set .second_column
+{
+	display: block;
+    overflow:auto;
+	margin-right:40px;
+}
+.rel_course
+{
+	font-family:'Raleway';
+	font-size:20px;
+	display:block;
+	padding-left:300px;
+}
+.prof_exp
+{
+	font-family:'Raleway';
+	font-size:20px;
+	display:block;
+	padding-left:300px;
+}
+.activities
+{
+	font-family:'Raleway';
+	font-size:20px;
+	display:block;
+	padding-left:300px;
+}
 
 /*styling footers*/
 footer
