@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway|Bitter');
 
 body
 {
@@ -37,12 +37,50 @@ div.logoPar
 	font-size:33px; /*text size is 33px*/
 }
 
+
+.navBar a.active { /*this division is made to indicate to which page the user is currently visiting*/
+  background-color: #D50000; /*background color changes*/
+  color: #000000; /*letter color changes to black when the user is at the page that is included in active class*/
+  cursor: default; /*cursor is the default shape (most have an arrow)*/
+}
+ .navBar a {
+  text-decoration: none; /*ensuring that there will be no decoration on the text the navigation bar contains*/
+  color: #fff; /*text color is white*/
+  display: block; /*every link is displayed as an individual block*/
+  transition: .3s background-color; /*specifying a transition of 3 seconds to the backround color property*/
+}
+.navBar ul {
+  list-style: none; /*we don't need the dots in front of every word, which is the default style of unordered lists*/
+  background-color: #444; /*background color of the navigation bar*/
+  text-align: center; /*all of text is alligned on the center. in our case, text on every individual block will be alligned on the center of that block*/
+  padding: 0; /*no padding*/
+  margin: 0; /*no margin*/
+}
+.navBar a:hover { /*styling every link inside the navbar ONLY when the user hovers the mouse on one of them*/
+  background-color: #B71C1C; /*change the background color when cursor hovers over*/
+}
+.navBar li { /*styling elements of the list*/
+  font-family: 'Oswald', sans-serif; /*setting the font of each element*/
+  font-size: 1.2em; /*setting the size of the letters*/
+}
+ 
+@media screen and (min-width: 600px) { /*if screen is bigger than 600 pixel then do the following*/
+  .navBar li { /*styling elements of the list*/
+    width: 120px; /*width of elementt is 120px*/
+    height: 50px; /*height of elements is 50px*/
+    line-height: 50px; /*each element's height in accordance to the navbar*/
+    font-size: 1.4em; /*the font of the text*/
+	display: inline-block; /*display each block in line so horizontally*/
+    margin-right: -4px; /*make the distance between elements bigger by 4 pixel*/
+  }
+}	
+
 .welcomeText
 {
 	/*styling text*/
 	text-align:center; /*aligning welcoming paragraph to center*/
-	font-family:'Raleway'; /*using Raleway google font*/
-	font-weight:bold; /*letters are bold*/
+	font-family:'Playfair Display'; /*using Raleway google font*/
+	 /*letters are bold*/
 	font-size:33px; /*font size 33 pixels*/
 	color:white; /*color is white*/
 	
