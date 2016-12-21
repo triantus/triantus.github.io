@@ -126,29 +126,29 @@ p.aboutPar
 
 #cvBody
 {
-	color:white; 
+	color:white; /*any text inside the body of CV page will be white*/
 }
 .cv_title
 {
-	font-family:'Raleway';
-	font-size:50px;
-	text-align:center;
-	border-style:solid;
+	font-family:'Raleway'; /*the main title will be of font Raleway*/
+	font-size:50px; /*letter size is 50 pixel*/
+	text-align:center; /*text will be aligned in center*/
+	border-style:solid; /*border style is solid (straight line)*/
 	
 }
-.first_set
+.first_set /*modifying the first set of columns*/
 {
-	font-family:'Raleway';
-	display:block;
-	padding-left:300px;
-	font-size:20px;
+	font-family:'Raleway'; /*font is raleway*/
+	display:block; /*this separates this set from the other*/
+	padding-left:300px; /*padding on the left is 300 pixel*/
+	font-size:20px; /*size of letters is 20 pixels*/
 }
 .first_set .first_column
 {
-	display: block;
-    float: left;
-	overflow:auto;
-	margin-right:40px;
+	display: block; /*separates this column from the others*/
+    float: left; /*this will align to the left*/
+	overflow:auto; /*overflow is auto*/
+	margin-right:40px; /*margin to the right is 40 px*/
 	
 }
 .first_set .second_column
