@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="css/mod.css">
+  <meta charset="UTF-8">
+  <title> Contact V </title>
+  </head>
+    <body>
+  <header>
+  <div class = "logo">
+  <div class="logoTitle">Mr V's...</div>
+  <div class = "logoPar">...personal page</div>
+  </div>
+  
+    <div class="navBar">
+      <ul>
+		<nav>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bio.html">Bio</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+		</nav>
+      </ul>
+    </div>
+	
+	
+  </header>
+  
+	<form id="formaEp" action="index.html" method="POST" enctype="multipart/form-data"> <!-- creating form with id formaEp, the action will be to return us to the home page since we cannot use PHP to send a mail, to send the data using POST method so that these are not visible to the URL bar. the encoding is set as multipart/form-data hence no characters are encoded -->
+	<div class="line"> <!-- creating division of class named line. Our first line -->
+		<label for="name">Name:</label><br /> <!-- creating label for input box with id name name. Label shows as "Name:" to the screen -->
+		<input id="name" class="input" name="name" type="text" value="" size="40" /><br /> <!-- the input box where the user will type his name. the type is text, it contains no text as a default and the size that can be written in it is 40 characters -->
+	</div> <!-- end of division. -->
+	<div class="line"> <!-- creating division of class named line. Our second line -->
+		<label for="email">Email:</label><br /> <!-- creating label for input box with id name email. Label shows as "Email:" to the screen -->
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br /> <!-- the input box where the user will type his email. the type is text, it contains no text as a default and the size that can be written in it is 30 characters -->
+	</div><!-- end of division. -->
+	<div class="line"> <!-- creating division of class named line. Our third line -->
+		<label for="mess">Message:</label><br /> <!-- creating label for input box with id name mess. Label shows as "Message:" to the screen -->
+		<textarea id="mess" class="input" name="mess" rows="8" cols="29"></textarea><br />  <!-- creating text area with id minima. here the user can type the message he would like to send. the message cannot be covering more than 8 rows of text and 29 columns -->
+	</div> <!-- end of division. -->
+	<input id="okayButton" type="submit" value="OK" /> <!-- creating button with id okayButton. when the user clicks this, he will be redirected to the home page. For the sake of this assignment, this form is not function as a contact form. -->
+</form>		<!-- end of form -->
+<footer>
+<hr>
+  <p> 2016 Vhiper Triantus All Rights Reserved.</p>
+  </footer>				
+    </body>
+  </html>

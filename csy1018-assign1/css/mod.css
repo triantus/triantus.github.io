@@ -178,6 +178,11 @@ p.aboutPar
 	display:block;
 	padding-left:300px;
 }
+form {
+	color:white; /*color of text and hr is white*/
+	text-align: center;  /*text is aligned on center*/
+	-webkit-appearance: none;
+}
 
 /*styling footers*/
 footer
