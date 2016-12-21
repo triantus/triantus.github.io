@@ -10,6 +10,7 @@ body
 /*styling universal logo*/
 div.logo
 {
+	display:block;
 	/*styling image*/
 	padding-bottom:20px; /*giving it a little space to the bottom*/
 	background-image: url("../images/viperLogo2smaller.png"); /*giving it picture as background*/
