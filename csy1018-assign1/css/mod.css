@@ -81,6 +81,8 @@ body
 
 .image
 {
+	display: -webkit-flex;
+    display: flex; /*attempting to use flexbox but saw no difference...*/
 	float:left; /*wanted images to float one next to another*/
 	margin-left:250px;  /*margin of every element inside that division is 250px to the left*/
 }
