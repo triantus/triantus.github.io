@@ -11,11 +11,15 @@
   <body> <!-- body starts -->
   
   <header> <!-- header starts -->
-  <div class = "logo"> <!-- creating division of class named logo -->
-  <div class="logoTitle">Mr V's...</div> <!-- it contains a subdivision the logo title, same class name -->
-  <div class = "logoPar">...personal page</div> <!-- and it contains also the paragraph, class named logoPar; another subdivision -->
-  <!-- this division will be in all pages as it contains the main title and the picture logo -->
-  </div> <!-- logo division ends -->
+  <div class = "logo"> <!-- creating division of class named logo --> 
+  <a href="index.html"> <!-- logo image is a link to index.html --> 
+  <img class= "logopic" src="images/viperLogo2smaller.png"> <!-- pic used in logo -->
+ </a> <!-- anchor closes --> 
+ <div class="logotext"> <!-- division that contains all the text used in the logo --> 
+  Mr V's...<br> 
+  ...personal page 
+  </div>
+ </div> <!-- logo division ends -->
   
   <div class="navBar">  <!-- creating division of class named navBar -->
       <ul> <!-- creating unordered list -->
@@ -27,21 +31,33 @@
 	</nav>
 	  </ul> <!-- end of unordered list -->
     </div> <!-- end of division navBar -->
-  
   </header>
   <div class="welcomeText"> <!-- creating division of class named welcomeText -->
   <p>Welcome to my page. You won't find much stuff in here, but the <a href="contact.html"> contact</a> form is always there if you wanna know more!</p>
   </div> <!-- end of division welcomeText -->
+  
   <br> <!-- break a.k.a new line -->
   <figure> <!-- semantic tag for picture -->
-  <img class="welcomeImg" src="images/Vindex2.jpg" alt="V on casual attire"> <!-- importing image, class name welcomeImg and path images/Vindex2.jpg -->
+  <div class="welcomeImages">
+	<div class="image">
+  <a href="bio.html">
+  <img class="welcomeImg" src="images/navbar-bio.png" alt="Link to bio"> <!-- importing image, class name welcomeImg. this will be used as link to the bio page -->
+  </a>
+  </div>
+	<div class="image">
+  <a href="cv.html">
+  <img class="welcomeImg2" src="images/navbar-cv.png" alt="Link to cv"> <!-- importing image, class name welcomeImg2. this will be used as link to the cv page -->
+  </a>
+	</div>
+  </div>
   </figure> <!-- end of semantic tag for picture -->
   <br>
-	<footer> <!-- creating footer -->
+	
+  </body>
+  <footer class="footerIndex"> <!-- creating footer -->
 	
 	<hr> <!-- horizontal rule; the white line above the paragraph that follows -->
   <p>© 2016 Vhiper Triantus All Rights Reserved.</p> 
   </footer> <!-- end of footer -->
-  </body>
   
   </html>
