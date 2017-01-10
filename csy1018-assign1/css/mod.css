@@ -25,7 +25,7 @@ body
 	font-family: 'Playfair Display'; /*using Playfair Display font from Google API fonts as requested*/
     text-shadow:2px 2px 2px #B71C1C; /*letters have red shadow now*/
     font-weight:bold; /*text is bold now*/
-    color:#000000; /*text color is black now*/
+    color:#FFFFFF; /*text color is white now*/
     letter-spacing:1pt; /*there is 1 point spacing between letters*/
     word-spacing:2pt; /*there are 2 points of spacing between words*/
     line-height:1; /*spacing between lines*/
